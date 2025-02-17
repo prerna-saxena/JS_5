@@ -1,0 +1,48 @@
+**************************************************                ARROW FUNCTION                             *********************************************************
+
+// POWER OF A NUMBER
+
+let sum = (a, b) =>{
+    let result= a**b;
+    return result;
+}
+alert(sum(2, 5));
+
+//SUM OF A NUMBER
+
+let sum = (a, b) => {  // the curly brace opens a multiline function
+  let result = a + b;
+  return result; // if we use curly braces, then we need an explicit "return"
+};
+
+alert( sum(10, 50) ); // 3
+
+Without curly braces: (...args) => expression – the right side is an expression: the function evaluates it and returns the result. 
+Parentheses can be omitted, if there’s only a single argument, e.g. n => n*2.
+
+With curly braces: (...args) => { body } – brackets allow us to write multiple statements inside the function, 
+but we need an explicit return to return something.
+
+
+
+let age = prompt("what is your age ?");
+
+if(age<18){
+    alert("underage");
+}
+else{
+    alert("bigger age ");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
